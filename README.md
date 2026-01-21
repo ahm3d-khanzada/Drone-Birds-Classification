@@ -21,16 +21,22 @@ The application is fully **Dockerized**, uses **CPU-only PyTorch**, and is ready
 ## 📂 Project Structure
 
 ```bash
-radar_drone_bird/
-│
-├── Dockerfile
-├── README.md
-├── requirements.txt
-├── main.py
-├── beep-03.wav
-│
-└── models/
-└── radar_model_scripted.pt
+Drone-Birds-Classification
+└── 📁radar_drone_bird
+    └── 📁dataset
+        ├── Dataset_download.txt
+    └── 📁models
+        ├── radar_model_scripted.pt <- Select this
+    └── 📁notebook
+        ├── Radar_CNN_+_LSTM_.ipynb <- Select this
+    ├── .dockerignore
+    ├── .gitignore
+    ├── api.py
+    ├── app.py
+    ├── beep-03.wav
+    ├── dockerfile
+    ├── main.py
+    └── requirements.txt
 ```
 
 ---
