@@ -79,15 +79,16 @@ docker run -p 8501:8501 radar-drone-bird
 ```
 ## 🔔 Alarm Behavior
 
-. When Drone 🚁 is detected:
+- When Drone 🚁 is detected:
 
-    - Alarm plays for 10 seconds
+  - Alarm plays for 10 seconds
 
-    - User can manually continue
+  - User can manually continue
 
-. For Bird 🐦:
+- For Bird 🐦:
 
-    - Auto-advances to next segment
+  - Auto-advances to next segment
+    
 ## ⚙️ Configuration
 
 Key parameters in main.py:
@@ -99,15 +100,15 @@ MODEL_PATH = "models/radar_model_scripted.pt"
 
 ## 🧩 Requirements
 
-    Python 3.11
+  - Python 3.11
 
-    Streamlit
+  - Streamlit
 
-    PyTorch (CPU-only)
+  - PyTorch (CPU-only)
 
-    NumPy, Pandas, Matplotlib
+  - NumPy, Pandas, Matplotlib
 
-    Docker (optional but recommended)
+  - Docker (optional but recommended)
 
 ## 👨‍💻 Author
 
